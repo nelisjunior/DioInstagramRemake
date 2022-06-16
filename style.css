@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color:rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
     display: flex;
@@ -32,7 +32,7 @@ body {
     width: 50%;
 }
 
-.instagram-phone img{
+.instagram-phone img {
     height: 50rem;
 }
 
@@ -72,7 +72,7 @@ body {
     overflow: hidden;
 }
 
-.profile-photo img{
+.profile-photo img {
     height: 6rem;
 }
 
@@ -113,6 +113,16 @@ body {
     padding: 1rem;
 }
 
+.ico-facebook {
+    width: 16px;
+    height: 16px;
+
+}
+
+.ico-facebook:nth-child(1){
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/300px-Facebook_icon_2013.svg.png');
+}
+
 .app-download {
     height: 3rem;
     width: 10rem;
@@ -140,18 +150,81 @@ body {
     }
 
     .instagram-wrapper {
-    width: 90%;
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
 }
 
-.instagram-phone {
-    display: none;
+.contact-clean h2 {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 36px;
+    color: inherit;
 }
 
-.instagram-continue {
-    width: 100%;
+.contact-clean .form-group:last-child {
+    margin-bottom: 5px;
 }
 
-.group {
-    border: 1px solid transparent;
+.form-control {
+    background-color: rgb(232, 240, 254);
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgb(250, 250, 250);
+    outline: none;
+    color: inherit;
+    padding-left: 12px;
+    width: 270px;
+    height: 38px;
 }
+
+.form-control:focus {
+    border: 1px solid #dddddd;
+}
+
+textarea.form-control {
+    width: 260px;
+    height: 36px;
+    padding-top: 10px;
+    resize: vertical;
+}
+
+.btn {
+    padding: 16px 32px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    outline: none !important;
+    height: 20px;
+    width: 270px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btn-primary {
+    background-color: #055ada !important;
+
+    height: 30px;
+    width: 270px;
+    color: #fff;
 }

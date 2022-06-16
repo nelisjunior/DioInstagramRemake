@@ -1,0 +1,13 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.float-right {
+  float: right;
+}
+
