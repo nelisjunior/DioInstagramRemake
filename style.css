@@ -166,17 +166,6 @@ body {
     }
 }
 
-.contact-clean h2 {
-    margin-top: 5px;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 36px;
-    color: inherit;
-}
-
-.contact-clean .form-group:last-child {
-    margin-bottom: 5px;
-}
 
 .form-control {
     background-color: rgb(232, 240, 254);
@@ -198,33 +187,4 @@ textarea.form-control {
     height: 36px;
     padding-top: 10px;
     resize: vertical;
-}
-
-.btn {
-    padding: 16px 32px;
-    opacity: 0.9;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-    letter-spacing: 0.4px;
-    line-height: 1;
-    outline: none !important;
-    height: 20px;
-    width: 270px;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-.btn:active {
-    transform: translateY(1px);
-}
-
-.btn-primary {
-    background-color: #055ada !important;
-
-    height: 30px;
-    width: 270px;
-    color: #fff;
 }
